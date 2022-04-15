@@ -64,6 +64,7 @@ app.get("/login-admin", (req, res) => {
 });
 
 
+
 app.get("/registro", (req, res) => {
   res.render("registro", {
     layout: "registro",
